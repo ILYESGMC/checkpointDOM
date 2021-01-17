@@ -1,0 +1,157 @@
+
+body {
+    background-color:rgb(48, 46, 46);
+}
+.img1{
+    border-radius: 50px;
+    background-image :none  ;
+    width: 1450px;
+    height:  320px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-style: none;
+}
+#cadre{
+    display: block;
+        border-style:groove ;
+        border-radius: 75px;
+        border-width: 2px;
+        height: 950px;
+        width: 1200px;
+        margin-top:50px ;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgb(51, 136, 118);
+
+    }
+    .fa-heart {
+            position: absolute;
+            margin-left: 500px;
+    }
+    .bascket {
+       
+        border-radius: 30px;
+        width: 200px;
+        height: 200px;
+        margin-left: 100px  ;
+        margin-top: 50px;
+    }
+    .pantalon{
+         border-radius: 30px;
+         width: 200px;
+         height: 200px;
+         margin-left: 100px;
+         margin-top: 100px;
+         margin-bottom: 50px;
+    }
+   .veste{
+        border-radius: 30px;
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        margin-top: 100px;
+   }
+     button{
+         width: 60px;
+         
+     
+
+     }
+     .add{
+          border-radius: 50px;
+        position:absolute;
+        display: inline;
+        margin-left: 550px;
+         margin-top:-100px;
+     }
+     .moins {
+          border-radius: 50px;
+          position:absolute;
+          display: inline;
+          margin-left: 400px;
+          margin-top: -100px;
+     }
+    
+     #qt1{
+        text-align: center;
+        width: 30px; 
+        position: absolute;
+         border-radius: 50px;
+         margin-left: 490px;
+         margin-top: -100px;
+         
+
+     }
+     #qt2 {
+         border-radius: 50px;
+        text-align: center;
+         width: 30px;
+         position: absolute;
+
+         margin-left: 490px;
+         margin-top: -100px;
+
+     }
+     #qt3 {
+          border-radius: 50px;
+         text-align: center;
+         width: 30px;
+         position: absolute;
+
+         margin-left: 490px;
+         margin-top: -99px;
+
+     }
+     p{
+         font-size: 25px;
+         font-style: oblique;
+         margin-left: 150px;
+         font-weight: bold;
+         color: navy;
+             }
+     #p1{
+         position: absolute;
+         margin-top: 10px;
+         margin-left: 169px;
+     }
+     #p2 {
+         position: absolute;
+         margin-top: 10px;
+         margin-left: 169px;
+     }
+     
+     #p3{
+         position: absolute;
+         margin-top: -35px;
+         margin-left: 169px;
+     }
+     #totale{
+          border-radius: 50px;
+         font-size: 20px;
+         width: 90px;
+         height: 30px;
+         position: absolute;
+         margin-left: 1000px;
+         margin-top: -40px;
+         color: #000000;
+         background-color: rgb(252, 21, 21);
+     }
+     .som{
+          border-radius: 50px;
+         text-align: center;
+          font-size: 20px;
+          width: 80px;
+          height: 30px;
+          position: absolute;
+          margin-left: 1000px;
+          margin-top: -90px;
+          color: black;
+     }
+
+    
+
+ 
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+     
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VENTE EN LIGNE</title>
+    
+    
+    
+    </head>
+<body>
+        
+        <img class="img1" src="logo-boutique.jpg">
+    
+    
+    
+    <div id="cadre">
+             
+        
+            
+               <div> 
+               <img class="bascket" src="basket1.jpg" ></div>
+               <button class="add"   onclick="increment()">+</button>
+               <button class="moins"  onclick="decrement()">-</button>
+               <i class="fas fa-heart"></i>
+               <input id=qt1 type=number min= 0 max=100 value="0">
+               <p id="p1">75 DT </p>
+               
+                <div><img class="veste" src="veste.jpg" ></div>
+                <button class="add"   onclick="increment1()">+</button>
+                <button class="moins"  onclick="decrement1()">-</button>
+                <i class="fas fa-heart"></i>
+                <input id="qt2" type="number" value="0"/>
+               <p id="p2">80 DT </p>
+               <div> <img class="pantalon" src="pantalon.jpg" ></div>
+               <button class="add"   onclick="increment2()">+</button>
+               <button class="moins"  onclick="decrement2()">-</button>
+                <i class="fas fa-heart"></i>
+                <input id="qt3" type=number value="0" />
+                 <p id="p3"> 50 DT </p>
+                 <div><button id="totale" onclick="somme()">TOTALE</button> 
+               
+                 <input class="som" type=number value="0"></div>
+     
+    </div>
+   <script>
+    function increment() {
+        document.getElementById('qt1').stepUp();
+    }
+    function decrement() {
+        document.getElementById('qt1').stepDown();
+    }
+    function increment1() {
+        document.getElementById('qt2').stepUp();
+    }
+    function decrement1() {
+        document.getElementById('qt2').stepDown();
+    }
+    function increment2() {
+        document.getElementById('qt3').stepUp();
+    }
+    function decrement2() {
+        document.getElementById('qt3').stepDown();
+    }
+
+
+    
+</script>
+</body>
+</html> 
